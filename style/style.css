@@ -37,7 +37,7 @@ header {
 	background-color: #B0B0B0;
 }
 
-/* L'onglet actuel est différencié dse autres */
+/* L'onglet actuel est différencié des autres */
 a.onglet-actuel {
 	background-color: #909090;
 }
@@ -124,4 +124,19 @@ footer img {
 	.hebergeur, .auteurs {
 		font-size: 1.5em;
 	}
+}
+
+
+
+/* Contact */
+.sitographie form {
+	display: flex;
+	flex-direction: column;
+	color: grey;
+}
+.sitographie input {
+	margin-top: 15px;
+}
+.sitographie input {
+	margin-top: 15px;
 }
