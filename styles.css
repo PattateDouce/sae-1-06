@@ -18,6 +18,10 @@ body{
     font-family: 'Copse', sans-serif;
 }
 
+main{
+    overflow: hidden;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -93,6 +97,7 @@ a::after{
 footer a::after{
     background-color: #286D3B;
 }
+
 a:hover::after{
     transform: scaleX(1);
     transform-origin: left;
@@ -140,11 +145,6 @@ a:hover::after{
     border-color: #286D3B;
     transition: .6s all ease;
 }
-
-main{
-    height: 100vh;
-}
-
 
 .btn-scroll{
     position: fixed;
@@ -304,14 +304,7 @@ footer{
     color: #fff;
     padding: 15px 80px;
     font-size: 20px;   
-}
-
-.footer-accueil{
-    margin-top: 750px;
-}
-
-.footer-naio{
-    margin-top: 1500px;
+    margin-top: 100px;
 }
 
 footer .gauche{
@@ -324,7 +317,7 @@ footer .gauche img{
 }
 footer a{
     color: #328649;
-}
+} 
 
 @media all and (max-width: 990px){
     .toggle{
@@ -413,14 +406,14 @@ footer a{
         width: 400px;
     }
 
-    footer{
+     footer{
         flex-direction: column;
-        margin-top: 1500px;
+       
     }
 
     footer img{
         display: none;
-    }
+    } 
 
     .hero-title{
         font-size: 30px;
@@ -429,6 +422,20 @@ footer a{
     .hero-link a{
         font-size: 15px;
     }
+
+    .modeleEconomique-content{
+        flex-direction: column;
+    }
     
 }
 
+@media all and (max-width: 400px){
+    .naio-presentation-img img{
+        width: 300px;
+    }
+    .modeleEconomique-img img{
+        width: 300px;
+    }
+
+   
+}
